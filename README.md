@@ -1,1 +1,0 @@
-# ajskirk.github.io
