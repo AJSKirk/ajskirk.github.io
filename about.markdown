@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About this site
+title: About This Site
 permalink: "/about/"
 
 ---
