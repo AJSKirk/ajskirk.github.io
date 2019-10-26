@@ -25,7 +25,7 @@ For the sake of clarity, the question I ask myself when ranking books is "which 
   9. _On Politics: A History of Political Thought From Herodotus to the Present_, Alan Ryan
  10. _The Death and Life of Great American Cities_, Jane Jacobs
  11. _The Rise and Decline of Nations: Economic Growth Stagflation and Social Rigidities_, Mancur Olson
- 12. _Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty_, Abhijit Banerjee and Esther Duflo 
+ 12. _Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty_, Abhijit Banerjee and Esther Duflo
  13. _The Fabric of Reality_, David Deutsch
  14. _Political Order and Political Decay: From The Industrial Revolution to the Globalization of Democracy_, Francis Fukuyama
  15. _Superforecasting: The Art and Science of Prediction_, Philip E. Tetlock and Dan Gardner
@@ -108,19 +108,19 @@ For the sake of clarity, the question I ask myself when ranking books is "which 
  92. _The Singularity is Near: When Humans Transcend Biology_, Ray Kurzweil
  93. _The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger_, Marc Levinson
  94. _The Case of the Pope: Vatican Accountability for Human Rights Abuse_, Geoffrey Robertson QC
- 95. Proof: The Science of Booze Adam Rogers
- 96. Letters to a Young Contrarian Christopher Hitchens
- 97. The Tyranny of Experts: Economists Dictators and the Forgotten Rights of the Poor William Easterly
- 98. Tractatus Logico-Philosophicus Ludwig Wittgenstein tr. Bertrand Russell
- 99. The End of Power: From Boardrooms to Battlefields and Churches to States Why Being in Charge Isn't What it Used to Be Moisés Naím
-100. The Long Shadow: Family Background Disadvantaged Urban Youth and the Transition to Adulthood Karl Alexander Doris Entwisle and Linda Olson
-101. A Universe From Nothing: Why There is Something Rather Than Nothing Lawrence Krauss
-102. Utopia for Realists: And How We Get There Rutger Bregman tr. Elizabeth Manton
-103. Theories of International Politics and Zombies Daniel Drezner
-104. Syria: A Recent History John McHugo
-105. Platonism and Antiplatonism in Mathematics
-106. Condemned to Crisis? Ken Ward
-107. The Death of Expertise: The Campaign Against Established Knowledge and Why it Matters Tom Nichols
-108. Count Zero
-109. Secret of Apollo
-110. Where Wizards Stay Up Late: The Origins of the Internet Katie Hafner and Matthew Lyon
+ 95. _Proof: The Science of Booze_, Adam Rogers
+ 96. _Letters to a Young Contrarian_, Christopher Hitchens
+ 97. _The Tyranny of Experts: Economists, Dictators, and the Forgotten Rights of the Poor_, William Easterly
+ 98. _Syria: A Recent History_, John McHugo
+ 99. _Tractatus Logico-Philosophicus_, Ludwig Wittgenstein tr. Bertrand Russell
+100. _The End of Power: From Boardrooms to Battlefields and Churches to States, Why Being in Charge Isn't What it Used to Be_, Moisés Naím
+101. _The Long Shadow: Family Background, Disadvantaged Urban Youth, and the Transition to Adulthood_, Karl Alexander Doris Entwisle and Linda Olson
+102. _A Universe From Nothing: Why There is Something Rather Than Nothing_, Lawrence Krauss
+103. _Utopia for Realists: And How We Get There_, Rutger Bregman tr. Elizabeth Manton
+104. _Theories of International Politics and Zombies_, Daniel Drezner
+105. _Platonism and Antiplatonism in Mathematics_, Mark Balaguer
+106. _Condemned to Crisis?_, Ken Ward
+107. _The Death of Expertise: The Campaign Against Established Knowledge and Why it Matters_, Tom Nichols
+108. _Count Zero_, William Gibson
+109. _The Secret of Apollo: Systems Management in American and European Space Programs_, Stephen B. Johnson
+110. _Where Wizards Stay Up Late: The Origins of the Internet_, Katie Hafner and Matthew Lyon
