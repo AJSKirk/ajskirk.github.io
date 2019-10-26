@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+  <head>
+  <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+  <title>Books I&#39;ve Read</title>
+  <meta name="description" content="TODO: Description">
+
+  <link rel="canonical" href="http://localhost:4000/books/">
+  <link rel="alternate" type="application/rss+xml" title="Kolmogorov Unbound" href="http://localhost:4000/feed.xml">
+
+  <script type="application/ld+json">
+  
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": "http://localhost:4000/books/",
+  "headline": "Books I&#39;ve Read",
+  "datePublished": "2019-10-26T19:31:58+01:00",
+  "dateModified": "2019-10-26T19:31:58+01:00",
+  "description": "TODO: Description",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew Kirk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kolmogorov Unbound",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000",
+      "width": 60,
+      "height": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000",
+    "height": 60,
+    "width": 60
+  }
+}
+
+  </script>
+
+  <style amp-custom>
+  
+  /* Import ET Book styles adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+@font-face { font-family: "et-book"; src: url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot"); src: url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("/assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "et-book"; src: url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot"); src: url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg"); font-weight: normal; font-style: italic; }
+
+@font-face { font-family: "et-book"; src: url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot"); src: url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("/assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg"); font-weight: bold; font-style: normal; }
+
+@font-face { font-family: "et-book-roman-old-style"; src: url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot"); src: url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("/assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg"); font-weight: normal; font-style: normal; }
+
+/* Tufte CSS styles */
+html { font-size: 15px; }
+
+body { width: 87.5%; margin-left: auto; margin-right: auto; padding-left: 12.5%; font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; background-color: #fffff8; color: #111; max-width: 1400px; counter-reset: sidenote-counter; }
+
+h1 { font-weight: 400; margin-top: 4rem; margin-bottom: 1.5rem; font-size: 3.2rem; line-height: 1; }
+
+h2 { font-style: italic; font-weight: 400; margin-top: 2.1rem; margin-bottom: 0; font-size: 2.2rem; line-height: 1; }
+
+h3 { font-style: italic; font-weight: 400; font-size: 1.7rem; margin-top: 2rem; margin-bottom: 0; line-height: 1; }
+
+p.subtitle { font-style: italic; margin-top: 1rem; margin-bottom: 1rem; font-size: 1.8rem; display: block; line-height: 1; }
+
+.numeral { font-family: et-book-roman-old-style; }
+
+.danger { color: red; }
+
+article { position: relative; padding: 5rem 0rem; }
+
+section { padding-top: 1rem; padding-bottom: 1rem; }
+
+p, ol, ul, .pagination a, .pagination em, table { font-size: 1.4rem; }
+
+p { line-height: 2rem; margin-top: 1.4rem; margin-bottom: 1.4rem; padding-right: 0; vertical-align: baseline; }
+
+/* Chapter Epigraphs */
+div.epigraph { margin: 5em 0; }
+
+div.epigraph > blockquote { margin-top: 3em; margin-bottom: 3em; }
+
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+
+div.epigraph > blockquote > footer { font-style: normal; }
+
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+
+/* end chapter epigraphs styles */
+blockquote { font-size: 1.4rem; }
+
+blockquote p { width: 50%; }
+
+blockquote .footer { width: 50%; font-size: 1.1rem; text-align: right; }
+
+ol, ul { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; }
+
+li { padding: 0.5rem 0; }
+
+figure { padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin: 0 0 3em 0; }
+
+figcaption { float: right; clear: right; margin-right: -48%; margin-top: 0; margin-bottom: 0; font-size: 1.1rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
+
+figure.fullwidth figcaption { margin-right: 24%; }
+
+/* Links: replicate underline that clears descenders */
+a:link, a:visited { color: inherit; }
+
+a:link { text-decoration: none; background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#333, #333); background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333); -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-repeat: no-repeat, no-repeat, repeat-x; text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8; background-position: 0% 93%, 100% 93%, 0% 93%; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
+
+a:link::selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe; background: #b4d5fe; }
+
+a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe; background: #b4d5fe; }
+
+/* Sidenotes, margin notes, figures, captions */
+img { max-width: 100%; }
+
+.sidenote, .marginnote { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 0; font-size: 1.1rem; line-height: 1.3; vertical-align: baseline; position: relative; }
+
+.table-caption { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; }
+
+.sidenote-number { counter-increment: sidenote-counter; }
+
+.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " "; font-family: et-book-roman-old-style; position: relative; vertical-align: baseline; }
+
+.sidenote-number:after { content: counter(sidenote-counter); font-size: 1rem; top: -0.5rem; left: 0.1rem; }
+
+.sidenote:before { content: counter(sidenote-counter) " "; top: -0.5rem; }
+
+p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.booktabs-wrapper { width: 55%; }
+
+div.fullwidth, table.fullwidth { width: 100%; }
+
+div.table-wrapper { overflow-x: auto; font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; }
+
+@media screen and (max-width: 760px) { p, h1, h2, h3, footer { width: 90%; }
+  pre.code { width: 87.5%; }
+  ul { width: 85%; }
+  figure { max-width: 90%; }
+  figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; }
+  blockquote p, blockquote .footer { width: 90%; } }
+
+.sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; letter-spacing: .03em; }
+
+.code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 1.125rem; line-height: 1.6; }
+
+h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
+
+.marginnote .code, .sidenote .code { font-size: 1rem; }
+
+pre.code { width: 52.5%; padding-left: 2.5%; overflow-x: auto; }
+
+.fullwidth { max-width: 90%; clear: both; }
+
+span.newthought { font-variant: small-caps; font-size: 1.2em; }
+
+.margin-toggle { display: none; }
+
+.sidenote-number { display: inline; }
+
+.margin-toggle:not(.sidenote-number) { display: none; }
+
+@media (max-width: 760px) { .margin-toggle:not(.sidenote-number) { display: none; }
+  .sidenote, .marginnote { display: none; }
+  .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { display: block; float: left; left: 1rem; clear: both; width: 95%; margin: 1rem 2.5%; vertical-align: baseline; position: relative; }
+  label { cursor: pointer; }
+  pre.code { width: 90%; padding: 0; }
+  .table-caption { display: block; float: right; clear: both; width: 98%; margin-top: 1rem; margin-bottom: 0.5rem; margin-left: 1%; margin-right: 1%; vertical-align: baseline; position: relative; }
+  div.table-wrapper, table, table.booktabs { width: 85%; }
+  div.table-wrapper { border-right: 1px solid #efefef; }
+  img { width: 100%; } }
+
+main { margin-top: 20px; }
+
+amp-img { background-color: grey; }
+
+article { padding: 2.5rem 0; }
+
+header { margin-top: 20px; }
+
+.post-meta { margin-top: 10px; }
+
+pre { width: 52.5%; padding-left: 2.5%; overflow-x: auto; }
+
+@media (max-width: 760px) { pre { width: 90%; padding: 0; } }
+
+code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 1.125rem; line-height: 1.6; }
+
+  </style>
+
+
+
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+
+  <body>
+    <header>
+  <div class="page-links">
+    <a class="page-link" href="/">Home</a>
+    
+      
+    
+      
+      • <a class="page-link" href="/about/">About This Site</a>
+      
+    
+      
+      • <a class="page-link" href="/books/">Books I've Read</a>
+      
+    
+      
+      • <a class="page-link" href="/contact/">Contact</a>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</header>
+
+
+    <article class="post">
+
+  <div class="post-meta">
+    <h1 class="post-title">Books I've Read</h1>
+  </div>
+
+  <section>
+    <p>This is a list of books I’ve read. It’s not perfectly complete but it is close to exhaustive for everything since 2015, which is when I started properly tracking the books I read. Most of these books should link to a short review or notes I’ve written on the book, though I can’t guarantee that all will.</p>
+
+<p>This list is mostly non-fiction. Between 2012 and 2017 I read no fiction at all, though I’ve been slowly adding in more fiction (particularly science fiction and speculative fiction) since then. One result of this is that I don’t have a very good lay of the land when it comes to fiction, so recommendations here are especially appreciated. I tend to prefer the kind of fiction writing that can’t be captured well in other media, which usually means books with longwinded technical explanations of interesting things (e.g. Herman Melville, Neal Stephenson) or books where the interesting writing style is an integral part of the appeal (e.g. Irvine Welsh, Joseph Heller). If the only appeal is that the book tells a captivating story I’ll generally prefer to receive that story in the form of a movie or a TV show.</p>
+
+<p>This link is ranked by quality rather than chronology, meaning books I liked more are closer to the top. Drawing up this ranking from scratch would be hard, so this ranking is generated by a <a href="https://github.com/AJSKirk/VElo">program I wrote</a> which chooses two books at random and asks me to pick the one I prefer. It then uses the <a href="https://en.wikipedia.org/wiki/Elo_rating_system">Elo algorithm</a> to turn this a series of binary head-to-head choices into a numeric score for each book, in the same way that rankings of Chess players<span id="side1" class="margin-toggle sidenote-number"></span>
+      <span class="sidenote">Or if you prefer, Mark Zuckerberg’s website for ranking the attractiveness of female students as featured in <em>The Social Network</em></span> are generated. I run this scoring system from time to time, so there will usually be a number of books in the ‘Yet to be Ranked’ section at the top of the list. It should go without saying that the fact that a book was ranked highly does not mean that I agree with it, let alone the rest of the author’s body of work.</p>
+
+<p>For the sake of clarity, the question I ask myself when ranking books is “which of these am I more glad to have read”, not “which would I recommend to someone” or any variant of that. This is because it’s hard to recommend a book in the general case, it’s very much dependent on who is receiving the recommendation. As a result, there will almost certainly be books near the top of the list that you won’t get any value out of, and books near the bottom of the list which would be an excellent choice for you. If you click through to the review/notes I have on a given book you’ll usually see a sentence or two on who (if anyone) I would recommend it to.</p>
+
+<hr />
+
+<ol>
+  <li><em>Utilitarianism</em>, John Stuart Mill</li>
+  <li><em>The Omnivore’s Dilemma: The Search for a Perfect Meal in a Fast Food World</em>, Michael Pollan</li>
+  <li><em>The Origins of Political Order: From Prehuman Times to the French Revolution</em>, Francis Fukuyama</li>
+  <li><em>Command and Control: The Story of Nuclear Weapons and the Illusion of Safety</em>, Eric Schlosser</li>
+  <li><em>Gödel Escher Bach: An Eternal Golden Braid</em>, Douglas R. Hofstadter</li>
+  <li><em>The Quest: Energy Security and the Remaking of the Modern World</em>, Daniel Yergin</li>
+  <li><em>Thinking Fast and Slow</em>, Daniel Kahneman</li>
+  <li><em>A Man for all Markets</em>, Edward O. Thorp</li>
+  <li><em>On Politics: A History of Political Thought From Herodotus to the Present</em>, Alan Ryan</li>
+  <li><em>The Death and Life of Great American Cities</em>, Jane Jacobs</li>
+  <li><em>The Rise and Decline of Nations: Economic Growth Stagflation and Social Rigidities</em>, Mancur Olson</li>
+  <li><em>Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty</em>, Abhijit Banerjee and Esther Duflo</li>
+  <li><em>The Fabric of Reality</em>, David Deutsch</li>
+  <li><em>Political Order and Political Decay: From The Industrial Revolution to the Globalization of Democracy</em>, Francis Fukuyama</li>
+  <li><em>Superforecasting: The Art and Science of Prediction</em>, Philip E. Tetlock and Dan Gardner</li>
+  <li><em>Superintelligence: Paths Dangers Strategies</em>, Nick Bostrom</li>
+  <li><em>Deep Work: Rules for Focused Success in a Distracted World</em>, Cal Newport</li>
+  <li><em>From Fatwa to Jihad: The Rushdie Affair and its Legacy</em>, Kenan Malik</li>
+  <li><em>The Logic of Collective Action: Public Goods and the Theory of Groups</em>, Mancur Olson</li>
+  <li><em>On Liberty</em>, John Stuart Mill</li>
+  <li><em>Catch-22</em>, Joseph Heller</li>
+  <li><em>Development as Freedom</em>, Amartya Sen</li>
+  <li><em>How Not To Be Wrong: The Power of Mathematical Thinking</em>, Jordan Ellenberg</li>
+  <li><em>Revolutionary Iran: A History of the Islamic Republic</em>, Michael Axworthy</li>
+  <li><em>The Classical World: An Epic History of Greece and Rome</em>, Robin Lane Fox</li>
+  <li><em>The Code Book: The Secret History of Codes and Code-Breaking</em>, Simon Singh</li>
+  <li><em>Iran: Empire of the Mind: A History from Zoroaster to the Present Day</em>, Michael Axworthy</li>
+  <li><em>Virtual Competition: The Promise and Perils of the Algorithm-Driven Economy</em>, Ariel Ezrachi and Maurice E. Stucke</li>
+  <li><em>The High Cost of Free Parking</em>, Donald Shoup</li>
+  <li><em>The Moral Law: Kant’s Groundwork of the Metaphysics of Morals</em>, Immanuel Kant tr. Herbert James Paton</li>
+  <li><em>Rape: A History from 1860 to the Present</em>, Joanna Bourke</li>
+  <li><em>Imagined Communities: Reflections on the Origin and Spread of Nationalism</em>, Benedict Anderson</li>
+  <li><em>Crimes Against Humanity: The Struggle for Global Justice</em>, Geoffrey Robertson QC</li>
+  <li><em>The Emperor’s New Mind: Concerning Computers Minds and the Laws of Physics</em>, Roger Penrose</li>
+  <li><em>The Bottom Billion: Why the Poorest Countries Are Failing and What Can Be Done About It</em>, Paul Collier</li>
+  <li><em>Trainspotting</em>, Irvine Welsh</li>
+  <li><em>The Better Angels of Our Nature: A History of Violence and Humanity</em>, Steven Pinker</li>
+  <li><em>Deep Sea and Foreign Going: Inside Shipping, the Invisible Industry that Brings You 90% of Everything</em>, Rose George</li>
+  <li><em>The Autobiography of Malcolm X</em>, Malcolm X and Alex Haley</li>
+  <li><em>The Black Jacobins: Toussaint L’Ouverture and the San Domingo Revolution</em>, C.L.R. James</li>
+  <li><em>A History of the Arab Peoples</em>, Albert Hourani</li>
+  <li><em>Algorithms to Live By: The Computer Science of Human Decisions</em>, Brian Christian and Tom Griffiths</li>
+  <li><em>The Fortunes of Africa: A 5000 Year History of Wealth, Greed, and Endeavour</em>, Martin Meredith</li>
+  <li><em>Causality: Models, Reasoning, and Inference</em>, Judea Pearl</li>
+  <li><em>Who Gets What - and Why: The Hidden World of Matchmaking and Market Design</em>, Alvin E. Roth</li>
+  <li><em>Snow Crash</em>, Neal Stephenson</li>
+  <li><em>Capitalism, Socialism, and Democracy</em>, Joseph Schumpeter</li>
+  <li><em>The Dispensable Nation: American Foreign Policy in Retreat</em>, Vali Nasr</li>
+  <li><em>The Looming Tower: Al-Qaeda’s Road to 9/11</em>, Lawrence Wright</li>
+  <li><em>The Shia Revival: How Conflicts Within Islam Will Shape the Future</em>, Vali Nasr</li>
+  <li><em>History of Western Philosophy</em>, Bertrand Russell</li>
+  <li><em>The Twilight War: The Secret History of America’s Thirty-Year Conflict With Iran</em>, David Crist</li>
+  <li><em>Guns Germs and Steel: A Short History of Everybody for the Last 13000 Years</em>, Jared Diamond</li>
+  <li><em>The State of Africa: A History of the Continent Since Independence</em>, Martin Meredith</li>
+  <li><em>The Attention Merchants: From the Daily Newspaper to Social Media How Our Time and Attention is Harvested and Sold</em>, Tim Wu</li>
+  <li><em>The Nature of Space and Time</em>, Stephen Hawking and Roger Penrose</li>
+  <li><em>Cryptonomicon</em>, Neal Stephenson</li>
+  <li><em>Quantum Computing Since Democritus</em>, Scott Aaronson</li>
+  <li><em>Neuromancer</em>, William Gibson</li>
+  <li><em>Nineteen Eighty-Four</em>, George Orwell</li>
+  <li><em>Seveneves</em>, Neal Stephenson</li>
+  <li><em>The Soul of a New Machine</em>, Tracy Kidder</li>
+  <li><em>Information Theory</em>, Robert B. Ash</li>
+  <li><em>The Pentagon’s New Map: War and Peace in the Twenty-First Century</em>, Thomas P.M. Barnett</li>
+  <li><em>This Time is Different: Eight Centuries of Financial Folly</em>, Carmen Reinhart and Kenneth Rogoff</li>
+  <li><em>What Makes a Terrorist: Economics and the Roots of Terror</em>, Alan Krueger</li>
+  <li><em>Preemption: A Knife that Cuts Both Ways</em>, Alan Dershowitz</li>
+  <li><em>Anathem</em>, Neal Stephenson</li>
+  <li><em>Nudge: Improving Decisions About Health Wealth and Happiness</em>, Richard Thaler and Cass Sunstein</li>
+  <li><em>The Enlightened Economy: Britain and the Industrial Revolution</em>, 1700-1850 Joel Mokyr</li>
+  <li><em>Beyond Belief: The Catholic Church and the Child Abuse Scanda</em>,l David Yallop</li>
+  <li><em>The Calculus of Consent: Logical Foundations of Constitutional Democracy</em>, James Buchanan and Gordon Tullock</li>
+  <li><em>The Invisible Man</em>, H.G. Wells</li>
+  <li><em>War of the Worlds</em>, H.G. Wells</li>
+  <li><em>Zealot: The Life and Times of Jesus of Nazareth</em>, Reza Aslan</li>
+  <li><em>Moby-Dick</em>; or, <em>The Whale</em>, Herman Melville</li>
+  <li><em>The Embarrassed Colonialist</em>, Sean Dorney</li>
+  <li><em>Prisoner’s Dilemma: John von Neumann, Game Theory, and the Puzzle of the Bomb</em>, Poundstone</li>
+  <li><em>Mona Lisa Overdrive</em>, William Gibson</li>
+  <li><em>Notes from Underground</em>, Fyodor Dostoyevsky</li>
+  <li><em>Days of Rage: America’s Radical Underground the FBI and the Forgotten Age of Revolutionary Violence</em>, Bryan Burrough</li>
+  <li><em>Buddha</em>, Karen Armstrong</li>
+  <li><em>Innovative State: How New Technologies can Transform Government</em>, Aneesh Chopra</li>
+  <li><em>Body Count: Fixing the Blame for the Global AIDS Catastrophe</em>, Peter Gill</li>
+  <li><em>@War: The Rise of Cyber Warfare</em>, Shane Harris</li>
+  <li><em>Midnight’s Descendants: South Asia from Partition to the Present Day</em>, John Keay</li>
+  <li><em>The Language Instinct: How the Mind Creates Language</em>, Steven Pinker</li>
+  <li><em>Critical Mass: How One Thing Leads to Another</em>, Philip Ball</li>
+  <li><em>The Clash of Civilizations and the Remaking of World Order</em>, Samuel P. Huntington</li>
+  <li><em>The Impossible State: North Korea Past and Future</em>, Victor Cha</li>
+  <li><em>Our Mathematical Universe: My Quest to Discover the Ultimate Nature of Reality</em>, Max Tegmark</li>
+  <li><em>The Singularity is Near: When Humans Transcend Biology</em>, Ray Kurzweil</li>
+  <li><em>The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger</em>, Marc Levinson</li>
+  <li><em>The Case of the Pope: Vatican Accountability for Human Rights Abuse</em>, Geoffrey Robertson QC</li>
+  <li><em>Proof: The Science of Booze</em>, Adam Rogers</li>
+  <li><em>Letters to a Young Contrarian</em>, Christopher Hitchens</li>
+  <li><em>The Tyranny of Experts: Economists, Dictators, and the Forgotten Rights of the Poor</em>, William Easterly</li>
+  <li><em>Syria: A Recent History</em>, John McHugo</li>
+  <li><em>Tractatus Logico-Philosophicus</em>, Ludwig Wittgenstein tr. Bertrand Russell</li>
+  <li><em>The End of Power: From Boardrooms to Battlefields and Churches to States, Why Being in Charge Isn’t What it Used to Be</em>, Moisés Naím</li>
+  <li><em>The Long Shadow: Family Background, Disadvantaged Urban Youth, and the Transition to Adulthood</em>, Karl Alexander Doris Entwisle and Linda Olson</li>
+  <li><em>A Universe From Nothing: Why There is Something Rather Than Nothing</em>, Lawrence Krauss</li>
+  <li><em>Utopia for Realists: And How We Get There</em>, Rutger Bregman tr. Elizabeth Manton</li>
+  <li><em>Theories of International Politics and Zombies</em>, Daniel Drezner</li>
+  <li><em>Platonism and Antiplatonism in Mathematics</em>, Mark Balaguer</li>
+  <li><em>Condemned to Crisis?</em>, Ken Ward</li>
+  <li><em>The Death of Expertise: The Campaign Against Established Knowledge and Why it Matters</em>, Tom Nichols</li>
+  <li><em>Count Zero</em>, William Gibson</li>
+  <li><em>The Secret of Apollo: Systems Management in American and European Space Programs</em>, Stephen B. Johnson</li>
+  <li><em>Where Wizards Stay Up Late: The Origins of the Internet</em>, Katie Hafner and Matthew Lyon</li>
+</ol>
+
+  </section>
+
+</article>
+
+<footer class="site-footer">
+   <section class="copyright">All content copyright <a href="mailto:your-email@example.com">Andrew Kirk</a> &copy; 2019 &bull; All rights reserved.</section>
+</footer>
+
+
+  </body>
+</html>
