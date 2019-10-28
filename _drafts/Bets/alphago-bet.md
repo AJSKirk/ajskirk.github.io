@@ -23,4 +23,4 @@ This gives the simple decision rule, to accept the bet if and only if
 
 \\\[P(n=4) = p^4 <= .4\\\]
 
-\\\[\\Rightarrow p <= \\sqrt\[4\]{.4}\\\]
+\\\[\\Rightarrow p <= \\sqrt\[4\]{.4}=.795\\\]
