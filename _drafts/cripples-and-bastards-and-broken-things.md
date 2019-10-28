@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: stub
 title: Cripples and Bastards and Broken Things
 
 ---
