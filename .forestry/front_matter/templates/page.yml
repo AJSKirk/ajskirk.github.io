@@ -12,6 +12,6 @@ fields:
   name: permalink
   label: permalink
 pages:
-- _posts/cripples-and-bastards-and-broken-things.md
 - _posts/Bets/alphago-bet.md
+- _posts/cripples-and-bastards-and-broken-things.md
 - books-i-ve-read.md
