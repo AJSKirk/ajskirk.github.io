@@ -17,4 +17,4 @@ I made the bet shortly after the first game, which AlphaGo lost. This means that
 
 Let \\(p\\) be the probability of AlphaGo winning any given game, and let \\(n\\) be the number of games won by AlphaGo. For simplicity's sake, assume that this \\(p\\) is constant across all games in the series (that is to say, Lee Sedol does not learn any weaknesses of AlphaGo after a few games, nor does he become rattled and play worse). The probability of a probability \\(p\\) event occurring in \\(k\\) out of \\(k\\) trials is given by a particularly simple case of the [binomial distribution](http://mathworld.wolfram.com/BinomialDistribution.html)
 
-$$P(n=k) = p^k$$
+\\\[P(n=k) = p^k\\\]
