@@ -24,3 +24,13 @@ This gives the simple decision rule, to accept the bet if and only if
 \\\[P(n=4) = p^4 <= .4\\\]
 
 \\\[\\Rightarrow p <= \\sqrt\[4\]{.4}=.795\\\]
+
+I didn't think that AlphaGo was good enough to win with an 80% probability in any given match, so I accepted the bet.
+
+***
+
+### Retrospective
+
+I think my central idea (there are 32 possible ways this series plays out, and only one of them results in me losing the bet) was a good one, though I do think I was overconfident in taking the 2:3 odds. I initially thought Lee had a good chance of winning because he was simply so much better than any human that AlphaGo had played before, but the first game should have seriously tempered my assessment there. Lee seemed to lead for much of the first game, but ultimately did lose.
+
+Ironically the main reason I seem to have won was that I was wrong to treat \\(p\\) as constant across all games. Lee won Game 4 by taking an uncharacteristically risky strategy, deliberately as a response to AlphaGo proving that it could eke out small advantages time and time again in cautious games. Lee learned how to counter AlphaGo quicker than I had anticipated.
