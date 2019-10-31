@@ -12,6 +12,7 @@ fields:
   name: permalink
   label: permalink
 pages:
+- attention-conservation-notices.md
 - _posts/cripples-and-bastards-and-broken-things.md
 - _posts/Bets/alphago-bet.md
 - books-i-ve-read.md
