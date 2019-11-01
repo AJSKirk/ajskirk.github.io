@@ -17,6 +17,6 @@ Audiobook was a good format for this. I highlight and take lots of margin notes 
 
 ### Thoughts
 
-**Polyamory**
+#### **Polyamory**
 
 Chivers devotes a chapter to the greater-than-usual number of polyamorous people in rationalist communities, and the fact that this is often offered as evidence in support of the "they're a cult" hypothesis. 
