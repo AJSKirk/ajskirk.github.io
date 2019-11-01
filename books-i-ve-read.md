@@ -12,7 +12,11 @@ This link is ranked by quality rather than chronology, meaning books I liked mor
 
 For the sake of clarity, the question I ask myself when ranking books is "which of these am I more glad to have read", not "which would I recommend to someone" or any variant of that. This is because it's hard to recommend a book in the general case, it's very much dependent on who is receiving the recommendation. As a result, there will almost certainly be books near the top of the list that you won't get any value out of, and books near the bottom of the list which would be an excellent choice for you. If you click through to the review/notes I have on a given book you'll usually see a sentence or two on who (if anyone) I would recommend it to.
 
-***
+### Yet to be Ranked
+
+* [_The AI Does Not Hate You_, Tom Chivers](../books/the-ai-does-not-hate-you)
+
+### Ranked
 
   1. _Utilitarianism_, John Stuart Mill
   2. _The Omnivore's Dilemma: The Search for a Perfect Meal in a Fast Food World_, Michael Pollan
