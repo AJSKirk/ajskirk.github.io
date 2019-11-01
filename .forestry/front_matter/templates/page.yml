@@ -12,7 +12,7 @@ fields:
   name: permalink
   label: permalink
 pages:
-- _posts/first-post.md
+- _posts/2019-11-01-first-post.md
 - attention-conservation-notices.md
 - _posts/Books/book-review-the-ai-does-not-hate-you.md
 - _posts/cripples-and-bastards-and-broken-things.md
