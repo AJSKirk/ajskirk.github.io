@@ -17,6 +17,4 @@ Audiobook was a good format for this. I highlight and take lots of margin notes 
 
 ### Thoughts
 
-#### **Polyamory**
-
-Chivers devotes a chapter to the greater-than-usual number of polyamorous people in rationalist communities, and the fact that this is often offered as evidence in support of the "they're a cult" hypothesis. 
+Chivers devotes a chapter to the greater-than-usual number of polyamorous people in rationalist communities, and the fact that this is often offered as evidence in support of the "they're a cult" hypothesis. He also mentions the theory that polyamoury might just be an adaptation to the fact that rationalist communities are highly gender imbalanced (i.e. mostly male), and that polyamory is a way to ensure nobody gets left out. This doesn't seem to make sense to me. The Manchester United Football Club and the United States Senate are both highly gender imbalanced, but they both settled on the same non-polyamorous solution, _viz._ just dating people outside their organisations. The fact that this is not offered as a solution to gender imbalance in rationalist communities seems to indicate either (1) a prohibition on dating outside the group or (2) most members see rationalism as so indispensable to their identity that they couldn't fathom dating anyone outside the group, neither of which strike me as particularly great arguments against the "they're a cult" hypothesis.
