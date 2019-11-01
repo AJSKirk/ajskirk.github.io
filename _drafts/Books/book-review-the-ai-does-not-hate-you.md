@@ -5,7 +5,7 @@ permalink: "/books/the-ai-does-not-hate-you"
 author: Tom Chivers
 
 ---
-[Attention Conservation Notice:](../attention_policy) I listened to this as an audiobook, which means my recollection will be worse as I have no notes.
+[_Attention Conservation Notice:_](../attention_policy) _I listened to this as an audiobook, which means my recollection will be worse as I have no notes._
 
 ### Review
 
