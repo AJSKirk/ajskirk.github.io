@@ -14,7 +14,7 @@ For the sake of clarity, the question I ask myself when ranking books is "which 
 
 ### Yet to be Ranked
 
-* [_The AI Does Not Hate You_, Tom Chivers](../books/the-ai-does-not-hate-you)
+* [_The AI Does Not Hate You_](../books/the-ai-does-not-hate-you), Tom Chivers
 
 ### Ranked
 
