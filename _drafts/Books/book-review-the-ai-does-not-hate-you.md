@@ -1,6 +1,6 @@
 ---
-layout: review
-title: 'Book Review: The AI Does Not Hate You'
+layout: stub
+title: 'Book: The AI Does Not Hate You by Tom Chivers'
 permalink: "/books/the-ai-does-not-hate-you"
 author: Tom Chivers
 

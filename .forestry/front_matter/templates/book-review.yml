@@ -17,5 +17,3 @@ fields:
     required: false
   label: Author
   description: Name of the author
-pages:
-- _posts/Books/book-review-the-ai-does-not-hate-you.md

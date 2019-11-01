@@ -12,6 +12,7 @@ fields:
   name: permalink
   label: permalink
 pages:
+- _posts/Books/book-review-the-ai-does-not-hate-you.md
 - attention-conservation-notices.md
 - _posts/cripples-and-bastards-and-broken-things.md
 - _posts/Bets/alphago-bet.md
