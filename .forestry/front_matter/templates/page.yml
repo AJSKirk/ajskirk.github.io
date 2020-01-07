@@ -12,9 +12,9 @@ fields:
   name: permalink
   label: permalink
 pages:
-- books-i-ve-read.md
-- _posts/Books/2019-11-01-book-review-the-ai-does-not-hate-you.md
 - _posts/2019-11-01-first-post.md
-- attention-conservation-notices.md
-- _posts/cripples-and-bastards-and-broken-things.md
 - _posts/Bets/alphago-bet.md
+- _posts/Books/2019-11-01-book-review-the-ai-does-not-hate-you.md
+- _posts/cripples-and-bastards-and-broken-things.md
+- attention-conservation-notices.md
+- books-i-ve-read.md

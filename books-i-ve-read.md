@@ -15,6 +15,8 @@ For the sake of clarity, the question I ask myself when ranking books is "which 
 ### Yet to be Ranked
 
 * [_The AI Does Not Hate You_](../books/the-ai-does-not-hate-you), Tom Chivers
+* _Innumeracy: Mathematical Illiteracy and Its Consequences_, John Allen Paulos
+* _Fortune's Formula_, William Poundstone
 
 ### Ranked
 
